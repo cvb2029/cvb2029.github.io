@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 *{
   margin: 0;
-  padding: 0;
+  padding: 3;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
 ::selection{
-  color: #ffff;
+  color: #cccccc;
   background: rgb(142, 73, 232);
 }
 body{
@@ -14,7 +14,7 @@ body{
   height: 100vh;
   /* overflow: hidden; */
   padding: 10px;
-  background: linear-gradient(to bottom, #68EACC 0%, #497BE8 100%);
+  background-image: linear-gradient(red, yellow, green);
 }
 .wrapper{
   background: #fff;
